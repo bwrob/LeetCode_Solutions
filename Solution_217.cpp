@@ -4,12 +4,6 @@
 // and return false if every element is distinct.
 
 #include "Solution_217.h"
-#include <unordered_set>
-#include <vector>
-#include <algorithm>
-#include <iostream>
-
-using namespace std;
 
 bool Solution_217::containsDuplicate(vector<int>& nums) {
     unordered_set<int> num_set;

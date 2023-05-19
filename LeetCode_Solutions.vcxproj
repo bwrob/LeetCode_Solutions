@@ -129,9 +129,12 @@
   <ItemGroup>
     <ClCompile Include="LeetCode_Solutions.cpp" />
     <ClCompile Include="Solution_217.cpp" />
+    <ClCompile Include="Solution_242.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Base_Header.h" />
     <ClInclude Include="Solution_217.h" />
+    <ClInclude Include="Solution_242.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

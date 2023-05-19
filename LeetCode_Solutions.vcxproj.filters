@@ -13,17 +13,32 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Arrays &amp; Hashing">
+      <UniqueIdentifier>{63e241af-6f85-48d5-8efc-4610e4eeb328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Arrays &amp; Hashing">
+      <UniqueIdentifier>{e0c02eb7-ef1c-4146-8554-0906946a1873}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode_Solutions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Solution_217.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Arrays &amp; Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_242.cpp">
+      <Filter>Source Files\Arrays &amp; Hashing</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution_217.h">
+      <Filter>Header Files\Arrays &amp; Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_242.h">
+      <Filter>Header Files\Arrays &amp; Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="Base_Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

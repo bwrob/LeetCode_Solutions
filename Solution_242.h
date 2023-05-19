@@ -5,10 +5,9 @@
 
 #include "Base_Header.h"
 
-class Solution_217
+class Solution_242
 {
 public:
-    bool containsDuplicate(vector<int>& nums);
-    bool containsDuplicate2(vector<int>& nums);
-    bool containsDuplicate3(vector<int>& nums);
+	bool isAnagram(string s, string t);
+	bool isAnagram2(string s, string t);
 };
